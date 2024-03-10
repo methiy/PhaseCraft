@@ -1,0 +1,5 @@
+Id	Name	Script	Type	Des	BgIcon	Icon	Expend	Arg0	Effects	
+唯一的标识（不能重复）	名称	卡牌添加的脚本	卡牌类型的Id	描述	卡牌的背景图资源路径	图标资源的路径	消耗的费用	属性值	特效	
+1000	攻擊	AttackCardItem	10001	“雾升鬼火起，桔灯映月明”	Cardgame/RedCard	Cardgame/Attack	1	100	Effects/GreenBloodExplosion	
+1001	防禦	DefendCard	10002	增加{0}点护盾	Cardgame/BlueCard	Cardgame/Defence	1	2	Effects/SpinZoneBlue	
+1002	抽取	AddCard	10003	从卡组中抽出{0}张卡片	Cardgame/GreyCard	Cardgame/Extract	0	2	Effects/SmokeExplosionDark	

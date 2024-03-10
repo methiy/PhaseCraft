@@ -1,0 +1,11 @@
+Id	Name	Hp	Attack	Defend	Model	
+Id	名字	血量	攻击力	防御盾	怪物的模型路径	
+10001	不可描述之柱	10	100	2	Model/Pillar	
+10002	小鹿A	5	1	3	Model/Deerlet	
+10003	小鹿B	5	1	3	Model/Deerlet	
+10004	大鹿	10	3	2	Model/Samber	
+10005	小狼A	6	2	1	Model/whelp	
+10006	小狼B	6	2	1	Model/whelp	
+10007	大狼	10	5	2	Model/Wolf	
+10008	黑化的小拳石	1	100	100	Model/Melanism	
+10009	小拳石	50	5	5	Model/Geodude	
