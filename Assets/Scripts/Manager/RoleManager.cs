@@ -20,20 +20,25 @@ public class RoleManager
         // cardList.Add("1000");
         // cardList.Add("1000");
         
-        // cardList.Add("1001");
-        // cardList.Add("1001");
-        // cardList.Add("1001");
-        // cardList.Add("1001");
-        // cardList.Add("1001");
-        // cardList.Add("1001");
-        // cardList.Add("1001");
-        // cardList.Add("1001");
+        cardList.Add("1001");
+        cardList.Add("1001");
+        cardList.Add("1001");
+        cardList.Add("1001");
+        cardList.Add("1001");
+        cardList.Add("1001");
+        cardList.Add("1001");
+        cardList.Add("1001");
 
-        // cardList.Add("1002");
+        cardList.Add("1002");
         
-        // cardList.Add("1003");
+        cardList.Add("1003");
 
         cardList.Add("1004");
+
+        cardList.Add("1005");
+        cardList.Add("1005");
+        cardList.Add("1005");
+        cardList.Add("1005");
    
 
     }

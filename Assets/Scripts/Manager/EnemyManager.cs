@@ -71,8 +71,11 @@ public class EnemyManager : MonoBehaviour
     {
         for(int i = 0;i < enemyList.Count; i++)
         {
+            if(!enemyList[i].Actionable()){
+                enemyList[i].SetState(State.Actionable);
+               continue; 
+            }
             yield return FightManager.Instance.StartCoroutine(enemyList[i].DoAction());
-
         }
 
         //行动后，更新所有敌人的行为

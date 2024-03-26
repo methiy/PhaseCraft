@@ -11,7 +11,11 @@ public enum ActionTpye
     Defend,//加防御
     Attack,//攻击
 }
-
+public enum State
+{
+    Actionable,
+    Inaccessible,
+}
 
 /// <summary>
 /// 敌人脚本
@@ -37,6 +41,9 @@ public class Enemy : MonoBehaviour
     public int Attack;
     public int MaxHp;
     public int CurHp;
+
+
+    private State selfState;
 
     //组件相关
     SkinnedMeshRenderer _meshRenderer;
@@ -77,6 +84,24 @@ public class Enemy : MonoBehaviour
 
         UpdateHp();
         UpdateDefend();
+    }
+
+    //设置行动
+    public void SetAxction(ActionTpye tpye)
+    {
+        switch (type)
+        {
+            case ActionTpye.None:
+                break;
+            case ActionTpye.Defend:
+                attackTf.gameObject.SetActive(false);
+                defendTf.gameObject.SetActive(true);
+                break;
+            case ActionTpye.Attack:
+                attackTf.gameObject.SetActive(true);
+                defendTf.gameObject.SetActive(false);
+                break;
+        }
     }
 
     //随机一个行动
@@ -174,7 +199,12 @@ public class Enemy : MonoBehaviour
         UpdateDefend();
         UpdateHp();
     }
-
+    public void SetState(State state){
+        selfState=state;
+    }
+    public bool Actionable(){
+        return selfState==State.Actionable;
+    }
     //隐藏怪物头上的行动标志
     public void HideAction()
     {

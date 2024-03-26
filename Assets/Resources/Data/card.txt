@@ -3,5 +3,6 @@ Id	Name	Script	Type	Des	BgIcon	Icon	Expend	Arg0	Effects
 1000	攻擊	AttackCard	10001	“雾升鬼火起，桔灯映月明”	Cardgame/RedCard	Cardgame/Attack	1	3	Effects/GreenBloodExplosion	
 1001	防禦	DefendCard	10002	增加{0}点护盾	Cardgame/BlueCard	Cardgame/Defence	1	2	Effects/SpinZoneBlue	
 1002	抽取	AddCard	10003	从卡组中抽出{0}张卡片	Cardgame/GreyCard	Cardgame/Extract	0	2	Effects/SmokeExplosionDark	
-1003	群体攻击	PackAttackCard	10004	都给我死…	Cardgame/RedCard	Cardgame/Attack	3	3	Effects/GreenBloodExplosion	
-1004	恢复	HealCard	1005	奶一口…	Cardgame/BlueCard	Cardgame/Defence	2	2	Effects/SpinZoneBlue	
+1003	群体攻击	PackAttackCard	10004	都给我死…	Cardgame/RedCard	Cardgame/Attack	3	3	Effects/SmokeExplosionDark	
+1004	恢复	HealCard	10005	奶一口…	Cardgame/BlueCard	Cardgame/Defence	2	2	Effects/SmokeExplosionDark	
+1005	麻痹	ParalysisCard	10006	走开别碍事…	Cardgame/GreyCard	Cardgame/Extract	2	0	Effects/SmokeExplosionDark	
