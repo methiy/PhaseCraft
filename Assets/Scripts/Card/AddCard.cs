@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-//³é¿¨Ð§¹ûµÄ¿¨Æ¬
 public class AddCard : CardItem
 {
    public override void OnEndDrag(PointerEventData eventData)

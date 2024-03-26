@@ -11,7 +11,7 @@ public class EnemyManager : MonoBehaviour
 {
     public static EnemyManager Instance = new EnemyManager();
 
-    private List<Enemy> enemyList;//储存战斗中的敌人
+    public List<Enemy> enemyList;//储存战斗中的敌人
 
     //加载敌人资源
 
@@ -60,6 +60,8 @@ public class EnemyManager : MonoBehaviour
         //是否击杀所有怪物
         if(enemyList.Count == 0)
         {
+            //! todo 播放动画
+            Debug.Log("成功动画...");
             FightManager.Instance.ChangeType(FightType.Win);
         }
     }

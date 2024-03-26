@@ -14,28 +14,27 @@ public class RoleManager
     public void Init()
     {
         cardList = new List<string>();
-        //四张攻击卡，四张防御卡 两张效果卡
-        cardList.Add("1000");
-        cardList.Add("1000");
-        cardList.Add("1000");
-        cardList.Add("1000");
-        cardList.Add("1000");
-        cardList.Add("1000");
-        cardList.Add("1000");
-        cardList.Add("1000");
+        //四张攻击卡，八张防御卡 三张效果卡
+        // cardList.Add("1000");
+        // cardList.Add("1000");
+        // cardList.Add("1000");
+        // cardList.Add("1000");
+        
+        // cardList.Add("1001");
+        // cardList.Add("1001");
+        // cardList.Add("1001");
+        // cardList.Add("1001");
+        // cardList.Add("1001");
+        // cardList.Add("1001");
+        // cardList.Add("1001");
+        // cardList.Add("1001");
 
-        cardList.Add("1001");
-        cardList.Add("1001");
-        cardList.Add("1001");
-        cardList.Add("1001");
-        cardList.Add("1001");
-        cardList.Add("1001");
-        cardList.Add("1001");
-        cardList.Add("1001");
+        // cardList.Add("1002");
+        
+        // cardList.Add("1003");
 
-        cardList.Add("1002");
-        cardList.Add("1002");
-        cardList.Add("1002");
-        cardList.Add("1002");
+        cardList.Add("1004");
+   
+
     }
 }
